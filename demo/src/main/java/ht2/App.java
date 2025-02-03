@@ -1,6 +1,6 @@
 package ht2;
 
-public class Calculadora implements IStack 
+public class App implements IStack 
 {
     public static void main( String[] args )
     {
