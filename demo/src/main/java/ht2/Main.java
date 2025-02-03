@@ -2,12 +2,11 @@ package ht2;
 
 import java.util.Scanner;
 
-public class Grafica {
+public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calculadora calculadora = new Calculadora();
-
         System.out.println("Ingrese el texto en formato Postfix que desea evaluar: ");
         String expression = scanner.nextLine();
 
