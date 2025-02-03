@@ -3,7 +3,7 @@ public class StackWithVector<T> implements IStack<T>{
     
     @Override
     public void push(T item){
-        miVector.add(element);
+        miVector.add(item);
     }
 
     @Override
