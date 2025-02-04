@@ -46,6 +46,9 @@ public class Calculadora implements ICalculadora {
             case "/":
                 if (n2 == 0) throw new ArithmeticException("Division por cero no permitida");
                 return (n1 / n2);
+            case "%":
+                if (n2 == 0) throw new ArithmeticException("Modulo por cero no permitido");
+                return n1 % n2;
             default: throw new Exception("Operador invalido: " + operador);
         }
     }
